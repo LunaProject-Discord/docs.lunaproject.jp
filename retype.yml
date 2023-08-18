@@ -1,0 +1,24 @@
+input: .
+output: .retype
+
+url: # Add your website address here
+
+locale: ja
+
+branding:
+  logo: logo.svg
+
+meta:
+  title: ' | Luna Project ドキュメント'
+
+links:
+- text: 公式サイトに戻る
+  icon: arrow-left
+  link: https://lunaproject.jp/
+
+footer:
+  copyright: '&copy; 2019-{{ year }} Luna Project.'
+
+search:
+  hotkeys:
+    - '/'
