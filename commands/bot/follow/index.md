@@ -3,7 +3,7 @@ order: -5
 icon: dot
 ---
 
-# About
+# follow
 Bot からのお知らせをチャンネルに通知するようにします。
 
 ## 主な使い方
