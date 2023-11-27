@@ -21,7 +21,7 @@ icon: dot
 
 ### ユーザーの経験値を 2 削除する
 ``` コマンドの実行例
-#.levelmanager add xp 2 @User
+#.levelmanager remove xp 2 @User
 ```
 
 -![応答例](default-response_removexp.png)
