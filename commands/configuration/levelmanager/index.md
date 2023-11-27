@@ -19,7 +19,7 @@ icon: dot
 
 -![応答例](default-response_addlevel.png)
 
-### ユーザーに経験値を 2 削除する
+### ユーザーの経験値を 2 削除する
 ``` コマンドの実行例
 #.levelmanager add xp 2 @User
 ```
