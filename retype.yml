@@ -1,20 +1,21 @@
 input: .
 output: .retype
 
-url: docs.lunaproject.jp
+url: 'docs.lunaproject.jp'
 
 locale: ja
 
 branding:
   logo: logo.svg
+  label: 'ドキュメント'
 
 meta:
   title: ' | Luna Project ドキュメント'
 
 links:
-- text: 公式サイトに戻る
-  icon: arrow-left
-  link: https://lunaproject.jp/
+- link: 'https://lunaproject.jp/invite'
+  text: 'サポートサーバーに参加'
+  icon: comment-discussion
 
 footer:
   copyright: '&copy; 2019-{{ year }} Luna Project.'
