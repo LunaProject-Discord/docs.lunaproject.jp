@@ -12,3 +12,4 @@ icon: dot
 ``` コマンドの実行例
 /translate target: ja text: Здравствуйте! Меня зовут Юдзуки.
 ```
+-![応答例](default-response.png)

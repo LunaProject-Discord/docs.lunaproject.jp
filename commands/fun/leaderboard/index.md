@@ -13,3 +13,5 @@ icon: dot
 ``` コマンドの実行例
 /leaderboard
 ```
+
+-![応答例](default-response.png)

@@ -12,9 +12,11 @@ icon: dot
 ``` コマンドの実行例
 /level
 ```
+-![応答例](default-response.png)
 
 ### 他のメンバーのレベルを表示
 
 ``` コマンドの実行例
 /level keyword: Aoichaan0513
 ```
+-![応答例](other-response.png)
