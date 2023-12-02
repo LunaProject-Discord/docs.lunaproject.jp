@@ -1,4 +1,4 @@
 order: -2
-label: Configuration
-icon: sliders
+label: 'Configuration'
+icon: gear
 expanded: true
