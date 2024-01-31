@@ -6,7 +6,8 @@ url: 'docs.lunaproject.jp'
 locale: ja
 
 branding:
-  logo: logo.svg
+  logo: logo-light.svg
+  logoDark: logo-dark.svg
   label: 'ドキュメント'
 
 meta:
