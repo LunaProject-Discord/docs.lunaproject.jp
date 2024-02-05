@@ -13,7 +13,7 @@ Bot からのお知らせをチャンネルに通知するようにします。
 /follow
 ```
 
-<!-- -![応答例](default-response.png) -->
+-![応答例](default-response.png)
 
 ## 必要な権限
 - ユーザー : チャンネルの管理
