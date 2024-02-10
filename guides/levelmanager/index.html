@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760037023106">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760849984217">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>LevelManager | Luna Project ドキュメント</title>
-    <meta name="title" content="LevelManager | Luna Project ドキュメント">
-    <meta name="description" content="メンバーのレベル・経験値管理を行います。">
+    <title>レベルの変更方法 | Luna Project ドキュメント</title>
+    <meta name="title" content="レベルの変更方法 | Luna Project ドキュメント">
+    <meta name="description" content="Bot のレベル機能を用いることでメンバーの発言数に応じた経験値を付与し、サーバーのアクティブ化に役立てることができます。 このレベル・経験値は、ダッシュボードより変更が可能です。">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://docs.lunaproject.jp/commands/configuration/levelmanager/">
+    <link rel="canonical" href="https://docs.lunaproject.jp/guides/levelmanager/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.lunaproject.jp/commands/configuration/levelmanager/">
-    <meta property="og:title" content="LevelManager | Luna Project ドキュメント">
-    <meta property="og:description" content="メンバーのレベル・経験値管理を行います。">
-    <meta property="og:image" content="https://docs.lunaproject.jp/commands/configuration/levelmanager/default-response_addlevel.png">
+    <meta property="og:url" content="https://docs.lunaproject.jp/guides/levelmanager/">
+    <meta property="og:title" content="レベルの変更方法 | Luna Project ドキュメント">
+    <meta property="og:description" content="Bot のレベル機能を用いることでメンバーの発言数に応じた経験値を付与し、サーバーのアクティブ化に役立てることができます。 このレベル・経験値は、ダッシュボードより変更が可能です。">
+    <meta property="og:image" content="https://docs.lunaproject.jp/guides/levelmanager/step2-guild.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.lunaproject.jp/commands/configuration/levelmanager/">
-    <meta property="twitter:title" content="LevelManager | Luna Project ドキュメント">
-    <meta property="twitter:description" content="メンバーのレベル・経験値管理を行います。">
-    <meta property="twitter:image" content="https://docs.lunaproject.jp/commands/configuration/levelmanager/default-response_addlevel.png">
+    <meta property="twitter:url" content="https://docs.lunaproject.jp/guides/levelmanager/">
+    <meta property="twitter:title" content="レベルの変更方法 | Luna Project ドキュメント">
+    <meta property="twitter:description" content="Bot のレベル機能を用いることでメンバーの発言数に応じた経験値を付与し、サーバーのアクティブ化に役立てることができます。 このレベル・経験値は、ダッシュボードより変更が可能です。">
+    <meta property="twitter:image" content="https://docs.lunaproject.jp/guides/levelmanager/step2-guild.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.760037023106" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760849984217" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.760037023106" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.760037023106" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760849984217" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760849984217" data-turbo-eval="false" defer></script>
 
     <style>
         figure.content-left {
@@ -63,10 +63,10 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="grow-0 shrink-0 overflow-hidden">
-                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../logo-light.svg">
-                                <img class="max-h-10 hidden dark:inline-block" src="../../../logo-dark.svg">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../logo-light.svg">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../logo-dark.svg">
                             </span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">ドキュメント</span>
                     </div>
@@ -194,13 +194,14 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="levelmanager" class="break-words">
+<doc-anchor-target id="レベルの変更方法" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#levelmanager">#</doc-anchor-trigger>
-        <span>LevelManager</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#レベルの変更方法">#</doc-anchor-trigger>
+        <span>レベルの変更方法</span>
     </h1>
 </doc-anchor-target>
-<p>メンバーのレベル・経験値管理を行います。</p>
+<p>Bot のレベル機能を用いることでメンバーの発言数に応じた経験値を付与し、サーバーのアクティブ化に役立てることができます。<br />
+このレベル・経験値は、ダッシュボードより変更が可能です。</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -218,51 +219,68 @@
         </div>
     </div>
 </div>
-<doc-anchor-target id="主な使い方">
+<doc-anchor-target id="1-ダッシュボードにログイン">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#主な使い方">#</doc-anchor-trigger>
-        <span>主な使い方</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-ダッシュボードにログイン">#</doc-anchor-trigger>
+        <span>1. ダッシュボードにログイン</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="ユーザーにレベルを-1-付与する">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ユーザーにレベルを-1-付与する">#</doc-anchor-trigger>
-        <span>ユーザーにレベルを 1 付与する</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<div class="codeblock-title">コマンドの実行例</div>
-<pre class="language-none"><code v-pre class="language-none">#.levelmanager add level 1 @User</code></pre>
-</doc-codeblock></div>
-<p><figure class="content-left">
-    <img src="default-response_addlevel.png" alt="応答例">
-    <figcaption class="caption caption-float">応答例</figcaption>
-</figure>
-</p>
-<doc-anchor-target id="ユーザーの経験値を-2-削除する">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ユーザーの経験値を-2-削除する">#</doc-anchor-trigger>
-        <span>ユーザーの経験値を 2 削除する</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<div class="codeblock-title">コマンドの実行例</div>
-<pre class="language-none"><code v-pre class="language-none">#.levelmanager remove xp 2 @User</code></pre>
-</doc-codeblock></div>
-<p><figure class="content-left">
-    <img src="default-response_removexp.png" alt="応答例">
-    <figcaption class="caption caption-float">応答例</figcaption>
-</figure>
-</p>
-<doc-anchor-target id="必要な権限">
+<p><a href="https://alpha.lunaproject.jp/">https://alpha.lunaproject.jp/</a> にアクセスし、Discordアカウントでログインします。<br />
+レベル・経験値を編集するには、サーバーの管理権限が必要です。</p>
+<doc-anchor-target id="2-対象のサーバーを選択">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#必要な権限">#</doc-anchor-trigger>
-        <span>必要な権限</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-対象のサーバーを選択">#</doc-anchor-trigger>
+        <span>2. 対象のサーバーを選択</span>
     </h2>
 </doc-anchor-target>
-<ul>
-<li>ユーザー : サーバーの管理</li>
-</ul>
+<p>「サーバーから探す」より、目的のサーバーを押下します。
+<figure class="content-left">
+    <img src="step2-guild.png" alt="">
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="3-レベルの管理画面に移動">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3-レベルの管理画面に移動">#</doc-anchor-trigger>
+        <span>3. レベルの管理画面に移動</span>
+    </h2>
+</doc-anchor-target>
+<p>左側メニュー (スマホ等の場合は左上の三本線メニュー) の「機能とオプション」欄より「レベル」を押下します。</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>この画面で「レベルを有効にする」をONにすることで、レベル機能を有効化できます。
+<figure class="content-left">
+    <img src="step3-enable_level.png" alt="">
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+</p>
+        </div>
+    </div>
+</div>
+<p>「レベルの管理」を押下すると、ユーザーごとのレベル・経験値を変更できます。</p>
+<doc-anchor-target id="4-保存する">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4-保存する">#</doc-anchor-trigger>
+        <span>4. 保存する</span>
+    </h2>
+</doc-anchor-target>
+<p>編集が終わりましたら、忘れずに保存ボタンを押してください。
+<figure class="content-left">
+    <img src="step4-save.png" alt="">
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -272,20 +290,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../commands/configuration/language/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../guides/change-language/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">前へ</span>
-                                                <span class="block mt-1">Language</span>
+                                                <span class="block mt-1">表示言語の変え方</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../commands/fun/level/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../commands/bot/about/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">次へ</span>
-                                                <span class="block mt-1">Level</span>
+                                                <span class="block mt-1">About</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -329,6 +347,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "LevelManager", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "レベルの変更方法", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
