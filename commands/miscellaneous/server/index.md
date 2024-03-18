@@ -19,5 +19,4 @@ icon: dot
 ``` コマンドの実行例
 /server keyword: Ayutsuki Guild
 ```
-
 -![応答例](external-response.png)
