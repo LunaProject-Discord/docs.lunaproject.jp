@@ -3,7 +3,7 @@ order: -3
 icon: dot
 ---
 
-# Mute
+# Unmute
 指定したメンバーのミュートを解除します。
 
 !!!info
